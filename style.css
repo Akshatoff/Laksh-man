@@ -300,23 +300,9 @@ h1,h2,h3,h4,h5,h6 {
 .banner-ad.blue {
   background: #e6f3fb;
 }
-.banner-ad .swiper-pagination {
-  bottom: 40px;
-  left: 0;
-  right: 0;
-}
-.banner-ad .swiper-pagination .swiper-pagination-bullet {
-  width: 16px;
-  height: 16px;
-  margin: 4px;
-  background: #FFF;
-  opacity: 1;
-  transition: background 0.3s ease-out;
-}
-.banner-ad .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
-  background: #FFC43F;
-}
-.banner-ad .swiper-slide {
+
+
+.banner-ad .s-slide {
   min-height: 630px;
   display: flex;
 }
