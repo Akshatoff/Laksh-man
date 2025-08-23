@@ -7,10 +7,11 @@ class ProductLoader {
 
     async loadProducts() {
         try {
-            const response = await fetch('../products.json');
+            const response = await fetch('https://api.jsonbin.io/v3/b/68a9b08143b1c97be9266c0d/latest');
             const data = await response.json();
-            this.products = data.products.all;
-            this.categories = data.categories;
+this.products = data.record.products.all;
+this.categories = data.record.categories;
+
             
             this.renderCategories();
             this.renderProducts();
