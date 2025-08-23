@@ -1,0 +1,251 @@
+{
+  "categories": [
+    {
+      "id": "sofas",
+      "name": "Sofas & Seating",
+      "image": "images/icon-vegetables-broccoli.png",
+      "link": "index.html"
+    },
+    {
+      "id": "beds",
+      "name": "Beds",
+      "image": "images/icon-bread-baguette.png",
+      "link": "index.html"
+    },
+    {
+      "id": "dining",
+      "name": "Dining Tables & Chairs",
+      "image": "images/icon-soft-drinks-bottle.png",
+      "link": "index.html"
+    },
+    {
+      "id": "wardrobes",
+      "name": "Wardrobes",
+      "image": "images/icon-wine-glass-bottle.png",
+      "link": "index.html"
+    },
+    {
+      "id": "office",
+      "name": "Office Furniture",
+      "image": "images/icon-animal-products-drumsticks.png",
+      "link": "index.html"
+    },
+    {
+      "id": "decor",
+      "name": "Home Decor",
+      "image": "images/icon-bread-herb-flour.png",
+      "link": "index.html"
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor Furniture",
+      "image": "images/shoes.png",
+      "link": "index.html"
+    },
+    {
+      "id": "revolving-chair",
+      "name": "Revolving Chair",
+      "image": "https://imgs.search.brave.com/Z8xDOk1IHi20HYNDntmR-Z2kzpCrNvm8XyDHsOmBvUY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9TRUxMRVIvRGVm/YXVsdC8yMDIzLzEx/LzM1OTc0OTU2MS9L/Uy9SWC9RUy85MzA3/OTM5L29mZmljZS1z/dGFmZi1jaGFpci01/MDB4NTAwLmpwZw",
+      "link": "index.html"
+    }
+  ],
+  "products": {
+    "all": [
+      {
+        "id": "sofa-royaloak-lshape",
+        "name": "Royaloak L-Shaped Sofa",
+        "image": "images/thumb-bananas.png",
+        "price": 28999,
+        "originalPrice": 35999,
+        "discount": 20,
+        "rating": 4.6,
+        "quantity": "1 Unit",
+        "category": "sofas",
+        "isNew": true,
+        "isBestseller": true
+      },
+      {
+        "id": "bed-sheesham-king",
+        "name": "Sheesham Wood King Bed",
+        "image": "images/thumb-biscuits.png",
+        "price": 24999,
+        "originalPrice": null,
+        "discount": null,
+        "rating": 4.4,
+        "quantity": "1 Unit",
+        "category": "beds",
+        "isNew": false,
+        "isBestseller": true
+      },
+      {
+        "id": "dining-6-seater",
+        "name": "6-Seater Dining Table Set",
+        "image": "images/thumb-cucumber.png",
+        "price": 18999,
+        "originalPrice": 21999,
+        "discount": 15,
+        "rating": 4.5,
+        "quantity": "1 Unit",
+        "category": "dining",
+        "isNew": true,
+        "isBestseller": false
+      },
+      {
+        "id": "wardrobe-3-door",
+        "name": "3-Door Modular Wardrobe",
+        "image": "images/thumb-milk.png",
+        "price": 22999,
+        "originalPrice": 25999,
+        "discount": 12,
+        "rating": 4.2,
+        "quantity": "1 Unit",
+        "category": "wardrobes",
+        "isNew": false,
+        "isBestseller": true
+      },
+      {
+        "id": "study-table-bookshelf",
+        "name": "Study Table with Bookshelf",
+        "image": "images/1.jpg",
+        "price": 7999,
+        "originalPrice": null,
+        "discount": null,
+        "rating": 4.3,
+        "quantity": "1 Unit",
+        "category": "office",
+        "isNew": true,
+        "isBestseller": false
+      },
+      {
+        "id": "office-chair-ergonomic",
+        "name": "Ergonomic Office Chair",
+        "image": "images/2.jpg",
+        "price": 6499,
+        "originalPrice": 7999,
+        "discount": 18,
+        "rating": 4.6,
+        "quantity": "1 Unit",
+        "category": "office",
+        "isNew": false,
+        "isBestseller": true
+      },
+      {
+        "id": "wall-shelf-wooden",
+        "name": "Wooden Wall Shelf (Set of 3)",
+        "image": "images/3.jpg",
+        "price": 2499,
+        "originalPrice": null,
+        "discount": null,
+        "rating": 4.5,
+        "quantity": "1 Set",
+        "category": "decor",
+        "isNew": true,
+        "isBestseller": false
+      },
+      {
+        "id": "outdoor-patio-set",
+        "name": "Outdoor Patio Table & Chairs",
+        "image": "images/4.jpg",
+        "price": 15999,
+        "originalPrice": null,
+        "discount": null,
+        "rating": 4.4,
+        "quantity": "1 Set",
+        "category": "outdoor",
+        "isNew": true,
+        "isBestseller": false
+      },
+      {
+        "id": "recliner-sofa-fabric",
+        "name": "Fabric Recliner Sofa",
+        "image": "images/5.jpg",
+        "price": 19999,
+        "originalPrice": 23999,
+        "discount": 17,
+        "rating": 4.7,
+        "quantity": "1 Unit",
+        "category": "sofas",
+        "isNew": false,
+        "isBestseller": true
+      },
+      {
+        "id": "side-table-wooden",
+        "name": "Wooden Side Table",
+        "image": "images/6.jpg",
+        "price": 2999,
+        "originalPrice": null,
+        "discount": null,
+        "rating": 4.3,
+        "quantity": "1 Unit",
+        "category": "decor",
+        "isNew": false,
+        "isBestseller": false
+      },
+      {
+        "id": "bedside-table",
+        "name": "Bedside Table with Drawer",
+        "image": "images/thumb-orange-juice.png",
+        "price": 3499,
+        "originalPrice": null,
+        "discount": 10,
+        "rating": 4.4,
+        "quantity": "1 Unit",
+        "category": "beds",
+        "isNew": true,
+        "isBestseller": false
+      },
+      {
+        "id": "bookshelf-wooden",
+        "name": "Wooden Bookshelf (5-Shelf)",
+        "image": "images/thumb-raspberries.png",
+        "price": 6999,
+        "originalPrice": null,
+        "discount": null,
+        "rating": 4.5,
+        "quantity": "1 Unit",
+        "category": "decor",
+        "isNew": true,
+        "isBestseller": false
+      },
+      {
+        "id": "dining-4-seater",
+        "name": "4-Seater Dining Table Set",
+        "image": "images/thumb-tomatoes.png",
+        "price": 12999,
+        "originalPrice": 14999,
+        "discount": 13,
+        "rating": 4.3,
+        "quantity": "1 Unit",
+        "category": "dining",
+        "isNew": false,
+        "isBestseller": true
+      },
+      {
+        "id": "wardrobe-sliding-door",
+        "name": "Sliding Door Wardrobe",
+        "image": "images/thumb-tomatoketchup.png",
+        "price": 25999,
+        "originalPrice": 28999,
+        "discount": 10,
+        "rating": 4.5,
+        "quantity": "1 Unit",
+        "category": "wardrobes",
+        "isNew": false,
+        "isBestseller": true
+      },
+      {
+        "id": "goat-chair",
+        "name": "Goat chair",
+        "price": 14999,
+        "image": "https://imgs.search.brave.com/kJYIXYMvKmKXIsVqE3-IxEZGmreUDpLXV7Xv4p1W-M0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzY0Lzc4LzIy/LzM2MF9GXzU2NDc4/MjI1OV91NVh0dzBG/UW4yMWNjRW8yM0NC/eWZZNTJpTUJoOEVV/Zi5qcGc",
+        "category": "revolving-chair",
+        "quantity": "1 Unit",
+        "rating": 4.5,
+        "discount": 15,
+        "isNew": true,
+        "isBestseller": true,
+        "originalPrice": null
+      }
+    ]
+  }
+}
