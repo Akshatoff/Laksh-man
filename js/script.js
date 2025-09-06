@@ -151,8 +151,69 @@
 
 })(jQuery);
 
+// Simple cart store
+let cart = [];
+
+function renderCart() {
+  const $list = $('#cart-items');
+  $list.empty();
+  let total = 0;
+
+  cart.forEach(item => {
+    total += item.price * item.qty;
+    $list.append(`
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">${item.name}</h6>
+          <small class="text-body-secondary">${item.desc}</small>
+        </div>
+        <span class="text-body-secondary">₹${item.price * item.qty}</span>
+      </li>
+    `);
+  });
+
+  $('#cart-total').text(`₹${total}`);
+  $('#cart-count').text(cart.length);
+}
+
+$(document).on('click', '.add-to-cart', function (e) {
+  e.preventDefault();
+  const $product = $(this).closest('.product-item');
+  const name = $product.data('name');
+  const price = parseFloat($product.data('price'));
+  const desc = $product.data('desc');
+  const qty = parseInt($product.find('.quantity').val()) || 1;
+
+  // check if item already in cart
+  const existing = cart.find(i => i.name === name);
+  if (existing) {
+    existing.qty += qty;
+  } else {
+    cart.push({ name, price, desc, qty });
+  }
+  renderCart();
+});
+
+// quantity plus/minus logic (already exists, but updated for .quantity)
+$('.product-qty').each(function () {
+  const $el_product = $(this);
+  $el_product.find('.quantity-right-plus').click(function (e) {
+    e.preventDefault();
+    const $input = $el_product.find('.quantity');
+    $input.val(parseInt($input.val()) + 1);
+  });
+  $el_product.find('.quantity-left-minus').click(function (e) {
+    e.preventDefault();
+    const $input = $el_product.find('.quantity');
+    const val = parseInt($input.val());
+    if (val > 1) $input.val(val - 1);
+  });
+});
+
+
 // Initialize Lenis
 const lenis = new Lenis({
   autoRaf: true,
 });
+
 

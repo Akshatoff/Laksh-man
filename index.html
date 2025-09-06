@@ -77,6 +77,45 @@
       </div>
     </div>
 
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart" aria-labelledby="My Cart">
+      <div class="offcanvas-header justify-content-center">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Your cart</span>
+<span class="badge bg-primary rounded-pill" id="cart-count">0</span>
+          </h4>
+          <ul class="list-group mb-3" id="cart-items"></ul>
+<li class="list-group-item d-flex justify-content-between">
+  <span>Total (INR)</span>
+  <strong id="cart-total">₹0</strong>
+</li>
+
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasSearch" aria-labelledby="Search">
+      <div class="offcanvas-header justify-content-center">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Search</span>
+          </h4>
+          <form role="search" action="index.html" method="get" class="d-flex mt-3 gap-0">
+            <input class="form-control rounded-start rounded-0 bg-light" type="email" placeholder="What are you looking for?" aria-label="What are you looking for?">
+            <button class="btn btn-dark rounded-end rounded-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     
     <header>
       <div class="container-fluid">
@@ -281,35 +320,45 @@
                   <div class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
                   
                     <div class="col">
-                      <div class="product-item">
-                        <span class="badge bg-success position-absolute m-3">-30%</span>
-                        <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
-                        <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
-                          </a>
-                        </figure>
-                        <h3>Nike Alphafly 3 Premium</h3>
-                        <span class="qty">1 Unit</span><span class="rating"><svg width="24" height="24" class="text-primary"><use xlink:href="#star-solid"></use></svg> 4.5</span>
-                        <span class="price">₹2,400</span>
-                        <div class="d-flex align-items-center justify-content-between">
-                          <div class="input-group product-qty">
-                              <span class="input-group-btn">
-                                  <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus">
-                                    <svg width="16" height="16"><use xlink:href="#minus"></use></svg>
-                                  </button>
-                              </span>
-                              <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1">
-                              <span class="input-group-btn">
-                                  <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus">
-                                      <svg width="16" height="16"><use xlink:href="#plus"></use></svg>
-                                  </button>
-                              </span>
-                          </div>
-                          <a href="#" class="nav-link">Add to Cart <iconify-icon icon="uil:shopping-cart"></a>
-                        </div>
-                      </div>
-                    </div>
+  <div class="product-item"
+       data-name="Nike Alphafly 3 Premium"
+       data-price="2400"
+       data-desc="1 Unit">
+    <span class="badge bg-success position-absolute m-3">-30%</span>
+    <a href="#" class="btn-wishlist">
+      <svg width="24" height="24"><use xlink:href="#heart"></use></svg>
+    </a>
+    <figure>
+      <a href="index.html" title="Product Title">
+        <img src="images/thumb-bananas.png" class="tab-image">
+      </a>
+    </figure>
+    <h3>Nike Alphafly 3 Premium</h3>
+    <span class="qty">1 Unit</span>
+    <span class="rating">
+      <svg width="24" height="24" class="text-primary"><use xlink:href="#star-solid"></use></svg> 4.5
+    </span>
+    <span class="price">₹2,400</span>
+    <div class="d-flex align-items-center justify-content-between">
+      <div class="input-group product-qty">
+        <span class="input-group-btn">
+          <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus">
+            <svg width="16" height="16"><use xlink:href="#minus"></use></svg>
+          </button>
+        </span>
+        <input type="text" class="form-control input-number quantity" value="1">
+        <span class="input-group-btn">
+          <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus">
+            <svg width="16" height="16"><use xlink:href="#plus"></use></svg>
+          </button>
+        </span>
+      </div>
+      <a href="#" class="nav-link add-to-cart">
+        Add to Cart <iconify-icon icon="uil:shopping-cart"></iconify-icon>
+      </a>
+    </div>
+  </div>
+</div>
 
                     <div class="col">
                       <div class="product-item">
